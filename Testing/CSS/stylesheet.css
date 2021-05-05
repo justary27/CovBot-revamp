@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    background-color: beige;
+    font-family: Mulish;
+}
+.navbody{
+    background-color: wheat;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+#logcont{
+    background-color: wheat;
+    width:150px;
+    display: inline-block;
+}
+#logo{
+    background-color: wheat;
+
+    width: 150px;
+}
+#logoname{
+    background-color: wheat;
+    /* margin: -10px,0; */
+    font-size: 70px;
+}
+.l{
+    background-color: wheat;
+    margin-left:20px;
+    margin-right: 20px;
+}
+#navlink{
+    background-color: wheat;
+    font-weight: bold;
+    align-items: center;
+    display:flex;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+#dropdown{
+    display: none;
+    border-left:2px solid rebeccapurple;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /* margin-top: 5px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#dropdown a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#dropdown a:hover{background-color: aqua;} 
+
+#l2:hover #dropdown{display: block;} 
+
+#megamenu{
+    display: none;
+    /* display:flex; */
+    /* flex-flow: column; */
+    margin: auto;
+    position:absolute;
+    width: 800px;
+    height: 300px;
+    /* background-color:white; */
+
+}
+#megamenu a{
+    padding: 30px 20px;
+    /* background-color:white; */
+    text-decoration: none;
+    display: block;
+
+}
+.c1{
+    background-color: wheat;
+}
+.c2{
+    /* display: none; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+#link1info,#link2info,#link3info,#link4info{
+    /* justify-items:flex-end; */
+    /* margin-left: 79.74px; */
+    width: 720.26px;
+    position: absolute;
+    display:none;
+    flex-direction: column;
+}
+
+.linkimg{
+    margin: 20px;
+    width: 100px;
+}
+
+#l1:hover #megamenu{display: flex;} 
+/* #link1:hover #link1info{display: block;} */
