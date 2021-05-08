@@ -1,0 +1,3 @@
+CREATE TABLE [IF NOT EXISTS] exp(
+    UserID INTEGER PRIMARY KEY,    
+);
