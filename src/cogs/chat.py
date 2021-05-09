@@ -22,5 +22,15 @@ class Task(Cog):
         await ctx.reply(resp)
         await ctx.message.add_reaction("🙋‍♀️")
 
+        #invite the bot
+    @command(name="invite",aliases=["Invite","ics"])
+    async def invite_bot(self,ctx):
+        invite_url=discord.utils.oauth_url(client_id="835222640821796924")
+        embed=discord.Embed(title="Invite link",description="",color=discord.Color.from_rgb(198, 197, 255))
+        embed.add_field(name="Here's my invite link, would love to join your server 😁!",value=f"[**Click here to invite**]({invite_url})")
+        # embed.set_thumbnail(url=bo)
+        await ctx.author.send(embed=embed)
+
+
 def setup(client):
     client.add_cog(Task(client))

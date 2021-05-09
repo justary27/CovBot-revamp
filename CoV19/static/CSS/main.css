@@ -54,9 +54,9 @@ body {
     background-color: #2C2F33 !important
 }
 .heading {
-    padding: 160px 50px !important;
+    margin: 160px 50px -100px 50px !important;
     color: #fff !important;
-    background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
+    /* background-image: url("../assets/wavy-purple-by-nouridio.svg") !important; */
     background-position: bottom !important;
     background-size: 300% !important;
     background-repeat: no-repeat !important;
@@ -204,4 +204,103 @@ color: rgba(255, 255, 255, 0.46) !important
 .footer .bot-footer {
     text-align: center !important;
     color: #a2a8bd !important
+}
+
+.ultawave{
+    transform: rotate(180deg);
+}
+.info{
+    /* display: none; */
+    justify-content: space-between;
+    display: flex;
+    /* height: 100px; */
+    padding: 0 10%;
+    background-color: #AD91FF;
+}
+
+#datainfo{
+    vertical-align:middle;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    background-color: #AD91FF ;
+}
+
+.maininfo_{
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+
+.infoOutside{
+    
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    /* height: 100px; */
+    padding: 0 10%;
+    background-color: #1D1E28;
+}
+
+#datainfoOut{
+    color: #AD91FF;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    background-color: #1D1E28 ;
+}
+
+.maininfo_out{
+    color: #AD91FF;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+/* <---------------- Cmd ----------------> */
+
+.infocmd{
+
+    justify-content: space-between;
+    display: flex;
+    /* height: 100px; */
+    padding: 0 10%;
+    background-color: #FFAFAF;
+}
+
+#datainfocmd{
+    vertical-align:middle;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    background-color: #FFAFAF ;
+}
+
+.maininfo_cmd{
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+
+.infoOutsidecmd{
+    
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    /* height: 100px; */
+    padding: 0 10%;
+    background-color: #1D1E28;
+}
+
+#datainfoOutcmd{
+    color: #FFAFAF;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+    background-color: #1D1E28 ;
+}
+
+.maininfo_outcmd{
+    color: #FFAFAF;
+    font-size: 20px;
+    /* padding-left: 300px; */
 }

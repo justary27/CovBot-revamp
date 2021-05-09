@@ -210,12 +210,12 @@ header{
 
 
 
-#div1 { grid-area: 1 / 1 / 2 / 2; }
-#div2 { grid-area: 1 / 2 / 2 / 3; }
-#div3 { grid-area: 1 / 3 / 2 / 4; }
-#div4 { grid-area: 2 / 1 / 3 / 2; }
-#div5 { grid-area: 2 / 2 / 3 / 3; }
-#div6 { grid-area: 2 / 3 / 3 / 4; }
+#div1 { grid-area: 1 / 1 / 2 / 2; background-image: url("/static/SiteMedia/needs.png");}
+#div2 { grid-area: 1 / 2 / 2 / 3; background-image: url("/static/SiteMedia/leads.png");background-attachment: 430px;background-repeat: no-repeat;}
+#div3 { grid-area: 1 / 3 / 2 / 4; background-image: url("/static/SiteMedia/stats.png");background-size: 530px;background-repeat: no-repeat;}
+#div4 { grid-area: 2 / 1 / 3 / 2; background-image: url("/static/SiteMedia/medical-mask.svg");background-color: rgb(29,30,40); background-repeat: no-repeat;background-size: 325px;}
+#div5 { grid-area: 2 / 2 / 3 / 3; background-image: url("/static/SiteMedia/medical-mask.svg");background-color: rgb(29,30,40);background-repeat: no-repeat;background-size: 325px; background-position: center;}
+#div6 { grid-area: 2 / 3 / 3 / 4; background-image: url("/static/SiteMedia/medical-mask.svg"); background-color: rgb(29,30,40);background-repeat: no-repeat;background-size: 325px;background-position: right;}
 
 /* ---------M A S K------ */
 #div7 { width: 33%;height: 300px; }
@@ -224,6 +224,15 @@ header{
 #div10 { margin-top: 305px; width: 33%;height: 300px; }
 #div11 { margin-top: 305px; margin-left: 33.5%; width: 33.5%;height: 300px; }
 #div12 { margin-top: 305px; margin-left: 67.5%; width: 32.5%;height: 300px; }
+.flexingrid{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.linkk{
+    /* text-decoration: none; */
+    color: white;
+}
 
 /* -----F O O T E R------ */
 
