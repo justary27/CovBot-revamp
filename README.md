@@ -10,8 +10,10 @@ All of us @team_InCognoS are from IIT Roorkee. We are freshers who are intereste
 Aryan Ranjan [Team Leader]
 Ashish Singh
 Shivam Sahu
-#HappyXelf
--Spreading smiles avoiding Covid.
+
+# HappyXelf
+-
+Spreading smiles avoiding Covid.
 
 ## The Social Problem(s):
 -Every now and then we are seeing people losing their loved ones to Covid 19 due to lack of resources sometimes just due to not having sufficient and verified leads.
