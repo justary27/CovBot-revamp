@@ -61,8 +61,8 @@ What we make here will be relevant from the very present till as long as Covid19
 
 ## How to run the project?
   -Install Everything needed from requirements.txt
-  For Website:
+  ### For Website:
   - ``` cd CoV19 ```
   - ``` python manage.py runserver 9000 ```
-  For Using bot in your server:
+  ### For Using bot in your server:
   - https://discord.com/oauth2/authorize?client_id=835222640821796924&scope=bot
