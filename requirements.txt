@@ -16,7 +16,7 @@ covid==2.4.1
 cryptography==3.4.7
 daphne==3.0.2
 discord.py==1.7.1
-Django==3.2.2
+Django==3.2.15
 h11==0.12.0
 httpcore==0.12.3
 httpx==0.17.1
